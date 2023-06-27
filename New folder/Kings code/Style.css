@@ -1,0 +1,298 @@
+/*header section*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap:10px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  
+  
+  
+}
+
+.logo {
+  margin-right: 20px; /* Adjust the margin as per your design */
+  width: 100px;
+  height: auto;
+}
+
+nav{
+  color:#0000;
+  text-decoration: none;
+}
+nav ul {
+  
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: black;
+    text-decoration: none;
+   
+    
+  }
+
+nav ul li a.drop-down {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px; /* Adjust the gap between text and image as per your design */
+  color:black;
+}
+
+nav ul li a.drop-down img {
+  vertical-align: middle;
+  
+}
+
+
+.drop-down {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  
+}
+
+.drop-down img {
+  margin-left:0px; /* Adjust the margin as per your design */
+  
+  
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-container button {
+  background-color: whitesmoke;
+  color: #0065fe;
+  border: none;
+  outline: none;
+  display: flex;
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 5px 10px; /* Adjust the padding as per your design */
+}
+
+.buttons-container button {
+  margin-right: 10px; /* Adjust the margin as per your design */
+  color: #0065fe;
+  display: flex;
+  align-items: center;
+  border-radius:200px;
+  
+}
+
+#button-hover {
+  border-radius: 100%;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.hero--content {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.affer-line {
+  color: #0065fe;
+}
+
+.hero--pa {
+  margin-top: 20px;
+}
+
+.hero--btn button {
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0065fe;
+}
+
+.hero-img img.Frame {
+  display: block;
+  margin: 40px auto;
+ 
+  }
+  .blessed {
+      width: 600px; /* Set the desired width */
+      height: auto; /* Maintain aspect ratio */
+       
+  }
+
+  .blue {
+    color:blue;
+  }
+.Seamless {
+  font-weight: 600;
+}
+
+.hero-img_bg {
+  display: block;
+  margin-top: 40px;
+}
+
+/* Section */
+section {
+  padding: 40px;
+}
+
+.possibilities-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.possibilities-con-text p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.possib {
+  display: flex;
+  gap: 40px;
+}
+
+.possibilities p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Box */
+.box   {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 40px;
+
+}
+.box >   {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+padding-left: 1rem;
+background-color: #f2f2f2;
+  
+}
+.box all-items>eclipse > Animation1 {
+  position  :absolute; 
+
+}
+
+.why.Choose {
+  font-size: 24px;
+  font-weight: bold;
+  align-items:right;
+  
+}
+
+.Scissor.impo {
+  margin-top: 20px;
+}
+
+.URl.shortening,
+.Custom.Url {
+  font-weight: bold;
+
+}
+
+.With.Scissors {
+  margin-top: 10px;
+}
+
+.Why-choose-head {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.price {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.price-header {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.bar {
+  margin-bottom: 20px;
+}
+
+.price-text {
+  margin-bottom: 40px;
+}
+
+.price-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card p {
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.cardfill {
+background-color:  rgba(0, 101, 254, 1);
+}
+
+.card h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card ul li i {
+  margin-right: 10px;
+}
+
+.price--btn button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0065fe;
+}
+
+.btn-fill {
+  background-color: #0065fe;
+}
+
+
